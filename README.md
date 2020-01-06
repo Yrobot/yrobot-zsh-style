@@ -6,6 +6,11 @@ yrobot个性化oh-my-zsh的主题文件
 ### 安装方式：
 1. 将theme文件clone到`$ZSH_CUSTOM/themes/`下
 ```
+git clone git@github.com:Yrobot/yrobot-zsh-style.git ./yrobot-theme-temp
+
+cp ./yrobot-theme-temp/yrobot-zsh-style.zsh-theme $ZSH_CUSTOM/themes
+
+rm -rf yrobot-theme-temp
 ```
 2. 修改`.zshrc`文件
 ```
