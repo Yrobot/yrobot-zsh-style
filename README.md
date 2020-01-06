@@ -13,7 +13,9 @@ cp ./yrobot-theme-temp/yrobot-zsh-style.zsh-theme $ZSH_CUSTOM/themes
 rm -rf yrobot-theme-temp
 ```
 2. 修改`.zshrc`文件      
-`vim ~/.zshrc`
+```
+vim ~/.zshrc
+```
 
 ```
 ZSH_THEME="yrobot-zsh-style"
