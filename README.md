@@ -13,6 +13,7 @@ cp ./yrobot-theme-temp/yrobot-zsh-style.zsh-theme $ZSH_CUSTOM/themes
 rm -rf yrobot-theme-temp
 ```
 2. 修改`.zshrc`文件
+`vim ~/.zshrc`
 ```
 ZSH_THEME="yrobot-zsh-style"
 #展示在输入行最前面，用来标记
